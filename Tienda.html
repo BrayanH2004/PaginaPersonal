@@ -363,16 +363,7 @@
              <div id="prueba2">
 
         <div class="relative z-10" role="dialog" aria-modal="true">
-  <!--
-    Background backdrop, show/hide based on modal state.
 
-    Entering: "ease-out duration-300"
-      From: "opacity-0"
-      To: "opacity-100"
-    Leaving: "ease-in duration-200"
-      From: "opacity-100"
-      To: "opacity-0"
-  -->
   <div class="fixed inset-0 hidden bg-gray-500/75 transition-opacity md:block" aria-hidden="true"></div>
 
   <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
@@ -455,7 +446,6 @@
                     </div>
                   </fieldset>
 
-                  <!-- Sizes -->
                   <fieldset class="mt-10" aria-label="Choose a size">
                     <div class="flex items-center justify-between">
                       <div class="text-sm font-medium text-gray-900">Size</div>
@@ -463,77 +453,43 @@
                     </div>
 
                     <div class="mt-4 grid grid-cols-4 gap-4">
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="XXS" class="sr-only" />
                         <span>XXS</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="XS" class="sr-only" />
                         <span>XS</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="S" class="sr-only" />
                         <span>S</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="M" class="sr-only" />
                         <span>M</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="L" class="sr-only" />
                         <span>L</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="XL" class="sr-only" />
                         <span>XL</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
+
                       <label class="group relative flex cursor-pointer items-center justify-center rounded-md border bg-white px-4 py-3 text-sm font-medium text-gray-900 uppercase shadow-xs hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="XXL" class="sr-only" />
                         <span>XXL</span>
-                        <!--
-                          Active: "border", Not Active: "border-2"
-                          Checked: "border-indigo-500", Not Checked: "border-transparent"
-                        -->
+
                         <span class="pointer-events-none absolute -inset-px rounded-md" aria-hidden="true"></span>
                       </label>
-                      <!-- Active: "ring-2 ring-indigo-500" -->
                       <label class="group relative flex cursor-not-allowed items-center justify-center rounded-md border bg-gray-50 px-4 py-3 text-sm font-medium text-gray-200 uppercase hover:bg-gray-50 focus:outline-hidden sm:flex-1">
                         <input type="radio" name="size-choice" value="XXXL" disabled class="sr-only" />
                         <span>XXXL</span>
@@ -595,6 +551,6 @@
   </div>
 </div>
     </div>
-    <script src="/comportamiento/Tienda.js"></script>
+    <script src="comportamiento/Tienda.js"></script>
   </body>
 </html>
